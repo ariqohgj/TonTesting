@@ -36,11 +36,11 @@ window.addEventListener("load", function () {
   }
 
   var buildUrl = "Build";
-  var loaderUrl = buildUrl + "/TestBuild.loader.js";
+  var loaderUrl = buildUrl + "/BuildBaru.loader.js";
   var config = {
-    dataUrl: buildUrl + "/TestBuild.data.unityweb",
-    frameworkUrl: buildUrl + "/TestBuild.framework.js.unityweb",
-    codeUrl: buildUrl + "/TestBuild.wasm.unityweb",
+    dataUrl: buildUrl + "/BuildBaru.data.unityweb",
+    frameworkUrl: buildUrl + "/BuildBaru.framework.js.unityweb",
+    codeUrl: buildUrl + "/BuildBaru.wasm.unityweb",
     streamingAssetsUrl: "StreamingAssets",
     companyName: "DefaultCompany",
     productName: "C# TonConnect",
