@@ -38,13 +38,13 @@ window.addEventListener("load", function () {
   var buildUrl = "Build";
   var loaderUrl = buildUrl + "/TonTesting.loader.js";
   var config = {
-    dataUrl: buildUrl + "/TonTesting.data.unityweb",
-    frameworkUrl: buildUrl + "/TonTesting.framework.js.unityweb",
-    codeUrl: buildUrl + "/TonTesting.wasm.unityweb",
+    dataUrl: buildUrl + "/TonTesting.data",
+    frameworkUrl: buildUrl + "/TonTesting.framework.js",
+    codeUrl: buildUrl + "/TonTesting.wasm",
     streamingAssetsUrl: "StreamingAssets",
-    companyName: "DefaultCompany",
-    productName: "C# TonConnect",
-    productVersion: "1.0",
+    companyName: "Graphie",
+    productName: "Duckie Bubble",
+    productVersion: "1.05",
     showBanner: unityShowBanner,
   };
 
